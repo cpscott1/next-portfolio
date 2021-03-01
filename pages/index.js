@@ -25,8 +25,16 @@ const closeMobileMenu = () => setClick(false)
         <div className="image-container">
           <img src="img/port-photo.JPG" className="port-photo" />
         </div>
-        <div>
+        <div className="about-section">
           <h2>About Me</h2>
+          <p>I'm an innovative Front-end developer with proven success in building responsive
+          websites and applications. Demonstrated expertise in translating complex
+          business requirements into optimized web-based solutions. Effective in leading
+          high-performing teams and managing development projects to
+          completion. Proficient in Shopify, React.js, HTML, JavaScript, and CSS.</p>
+          <div className="button-container">
+            <button className="portfolio-button"><Link href="/portfolio">GO TO PORTFOLIO</Link></button>
+          </div>
         </div>
       </main>
     </Layout>
