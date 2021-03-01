@@ -55,9 +55,9 @@ const closeMobileMenu = () => setClick(false)
         <Link href="/portfolio">PORTFOLIO</Link>
         <Link href="/contact">CONTACT ME</Link>
         <div>
-          <FontAwesomeIcon className="footer-icon" icon={faGithub} />
-          <FontAwesomeIcon className="footer-icon" icon={faTwitter} />
-          <FontAwesomeIcon className="footer-icon" icon={faLinkedinIn} />
+          <a href="https://github.com/cpscott1"><FontAwesomeIcon className="footer-icon" icon={faGithub} /></a>
+          <a href="https://twitter.com/camperry21"><FontAwesomeIcon className="footer-icon" icon={faTwitter} /></a>
+          <a href="https://www.linkedin.com/in/camperry1/"><FontAwesomeIcon className="footer-icon" icon={faLinkedinIn} /></a>
         </div>
       </footer>
     </div>
