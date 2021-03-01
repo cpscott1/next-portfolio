@@ -48,6 +48,9 @@ const closeMobileMenu = () => setClick(false)
       </header>
       {/* this is where the content area goes */}
       {props.children}
+      <footer>
+
+      </footer>
     </div>
   )
 }

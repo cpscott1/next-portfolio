@@ -19,9 +19,6 @@ const closeMobileMenu = () => setClick(false)
       <main>
         <img src="img/header.jpeg" className="header-photo" />
         <h2 className="home-title">Hey, I'm Cam Perry and I enjoy building web applications</h2>
-        <div style={{ animationDuration: '2s' }} className="button-container">
-          <button className="about-button">ABOUT ME</button>
-        </div>
         <div className="image-container">
           <img src="img/port-photo.JPG" className="port-photo" />
         </div>
@@ -34,6 +31,12 @@ const closeMobileMenu = () => setClick(false)
           completion. Proficient in Shopify, React.js, HTML, JavaScript, and CSS.</p>
           <div className="button-container">
             <button className="portfolio-button"><Link href="/portfolio">GO TO PORTFOLIO</Link></button>
+          </div>
+        </div>
+        <div className="home-contact">
+          <h2 className="home-contact-title">Interested in doing a project</h2>
+          <div className="contact-container">
+            <button className="contact-button"><Link href="/contact">CONTACT ME</Link></button>
           </div>
         </div>
       </main>

@@ -58,6 +58,7 @@ main {
     line-height: 7vw;
     letter-spacing: .1rem;
   }
+  border-bottom: 1px solid black;
 }
 
 .button-container {
@@ -71,4 +72,30 @@ main {
     font-family: 'Public Sans', sans-serif;
     cursor: pointer;
   }
+  padding-bottom: 8vw;
+}
+
+.home-contact-title {
+  width: 60vw;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 15vw;
+  padding-bottom: 10vw;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8vw;
+}
+
+.contact-button {
+  text-align: center;
+  border: 1px solid black;
+  outline: none;
+  background: #fff;
+  font-size: 3vw;
+  padding: 4vw 8vw;
+  font-family: 'Public Sans', sans-serif;
+  cursor: pointer;
 }
