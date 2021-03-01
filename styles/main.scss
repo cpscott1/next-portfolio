@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@600;700&family=Public+Sans:wght@300;400;500;600&display=swap');
+
+.header-photo {
+  width: 100%;
+  height: auto;
+}
+
+.home-title {
+  width: 85vw;
+  font-size: 2.5rem;
+  font-family: 'Ibarra Real Nova', serif;
+  font-weight: 600;
+}
+
+main {
+  width: 85vw;
+  margin: 0 auto;
+  .button-container {
+    margin-top: 5vw;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    animation: fadeIn ease;
+    .about-button {
+      text-align: center;
+      border: none;
+      background: #203A4C;
+      color: #fff;
+      font-weight: 700;
+      font-size: 3vw;
+      padding: 4vw 8vw;
+      font-family: 'Public Sans', sans-serif;
+      font-weight: 600;
+    }
+  }
+}
+
+.image-container {
+  padding-bottom: 8vw;
+  width: 84vw;
+  border-bottom: 1px solid black;
+}
+
+.port-photo {
+  height: auto;
+  width: 85vw;
+}
