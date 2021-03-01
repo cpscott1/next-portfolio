@@ -3,9 +3,11 @@ import Head from 'next/head'
 // import styles from '../styles/Home.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faTwitter, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 import Link from "next/link";
 import { config } from '@fortawesome/fontawesome-svg-core';
 config.autoAddCss = false;
+
 
 export default function Layout(props) {
   const [click, setClick] = useState(false)
@@ -49,7 +51,14 @@ const closeMobileMenu = () => setClick(false)
       {/* this is where the content area goes */}
       {props.children}
       <footer>
-
+        <Link href="/">HOME</Link>
+        <Link href="/portfolio">PORTFOLIO</Link>
+        <Link href="/contact">CONTACT ME</Link>
+        <div>
+          <FontAwesomeIcon className="footer-icon" icon={faGithub} />
+          <FontAwesomeIcon className="footer-icon" icon={faTwitter} />
+          <FontAwesomeIcon className="footer-icon" icon={faLinkedinIn} />
+        </div>
       </footer>
     </div>
   )
