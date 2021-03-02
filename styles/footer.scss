@@ -7,6 +7,10 @@ footer {
   align-items: center;
   padding-top: 10vw;
   padding-bottom: 2vw;
+  @media only screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: center;
+  }
   a {
     color: #F5F5F5;
     margin-bottom: 7vw;
@@ -24,4 +28,10 @@ footer {
   color: white;
   margin-right: 3vw;
   font-size: 1.5rem;
+}
+
+.footer-links {
+  @media only screen and (min-width: 768px) {
+    margin-left: 4vw;
+  }
 }

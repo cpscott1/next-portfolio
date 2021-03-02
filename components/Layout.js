@@ -51,9 +51,9 @@ const closeMobileMenu = () => setClick(false)
       {/* this is where the content area goes */}
       {props.children}
       <footer>
-        <Link href="/">HOME</Link>
-        <Link href="/portfolio">PORTFOLIO</Link>
-        <Link href="/contact">CONTACT ME</Link>
+        <Link href="/"><a className="footer-links">HOME</a></Link>
+        <Link href="/portfolio"><a className="footer-links">PORTFOLIO</a></Link>
+        <Link href="/contact"><a className="footer-links">CONTACT ME</a></Link>
         <div>
           <a href="https://github.com/cpscott1"><FontAwesomeIcon className="footer-icon" icon={faGithub} /></a>
           <a href="https://twitter.com/camperry21"><FontAwesomeIcon className="footer-icon" icon={faTwitter} /></a>

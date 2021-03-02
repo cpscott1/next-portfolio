@@ -21,6 +21,32 @@ h2 {
 main {
   width: 85vw;
   margin: 0 auto;
+  @media only screen and (min-width: 768px) {
+    position: relative;
+    .home-title {
+      background: #fff;
+      width: 75vw;
+      padding-bottom: 10.5vw;
+      position: absolute;
+      top: 25vw;
+      left: 0;
+      h2 {
+        position: relative;
+        top: 3vw;
+      }
+    }
+    @media only screen and (min-width: 1000px) {
+      .home-title {
+        width: 30vw;
+        top: 25vw;
+      }
+    }
+      @media only screen and (min-width: 1200px) {
+        .home-title {
+          top: 35vw;
+        }
+      }
+  }
   .button-container {
     margin-top: 5vw;
     position: relative;
@@ -45,18 +71,51 @@ main {
   padding-bottom: 8vw;
   width: 84vw;
   border-bottom: 1px solid black;
+  @media only screen and (min-width: 768px) {
+    padding-top: 10vw;
+    width: 40vw;
+    border-bottom: none;
+  }
+}
+
+.about-grid{
+  @media only screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .port-photo {
   height: auto;
   width: 85vw;
+  @media only screen and (min-width: 768px) {
+    width: 40vw;
+  }
 }
 
 .about-section {
+    @media only screen and (min-width: 768px) {
+      border-bottom: none;
+      h2 {
+        padding-top: 5.5vw;
+      }
+    }
+    @media only screen and (min-width: 1000px) {
+      h2 {
+        font-size: 3vw;
+        padding-top: 7.5vw;
+      }
+    }
   p {
     font-family: 'Public Sans', sans-serif;
     line-height: 7vw;
     letter-spacing: .1rem;
+    @media only screen and (min-width: 768px) {
+      line-height: 3vw;
+    }
+    @media only screen and (min-width: 1000px) {
+      font-size: 2vw;
+    }
   }
   border-bottom: 1px solid black;
 }
@@ -71,8 +130,27 @@ main {
     padding: 4vw 8vw;
     font-family: 'Public Sans', sans-serif;
     cursor: pointer;
+    @media only screen and (min-width: 768px) {
+      font-size: 2vw;
+      padding: 3vw 3vw;
+    }
   }
   padding-bottom: 8vw;
+}
+
+.home-contact {
+    @media only screen and (min-width: 768px) {
+      display: flex;
+      .home-contact-title {
+        width: 50vw;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+      .contact-button {
+        font-size: 2vw;
+        padding: 3vw 4vw;
+      }
+    }
 }
 
 .home-contact-title {
@@ -87,6 +165,10 @@ main {
   display: flex;
   justify-content: center;
   padding-bottom: 8vw;
+  @media only screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .contact-button {
