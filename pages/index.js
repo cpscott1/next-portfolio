@@ -21,7 +21,7 @@ const closeMobileMenu = () => setClick(false)
         <div className="home-title"><h2>Hey, I'm Cam Perry and I enjoy building web applications</h2></div>
         <div className="about-grid">
           <div className="image-container">
-            <img src="img/port-photo.JPG" className="port-photo" />
+            <img src="img/cam.jpg" className="port-photo" />
           </div>
           <div className="about-section">
             <h2>About Me</h2>

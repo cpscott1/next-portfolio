@@ -10,12 +10,17 @@ footer {
   @media only screen and (min-width: 768px) {
     flex-direction: row;
     justify-content: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
   }
   a {
     color: #F5F5F5;
     margin-bottom: 7vw;
     font-family: 'Public Sans', sans-serif;
     font-size: .9rem;
+      @media only screen and (min-width: 768px) {
+        margin-bottom: 0;
+      }
   }
   div {
     display: flex;
