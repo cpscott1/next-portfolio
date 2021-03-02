@@ -4,6 +4,7 @@ import '../styles/globals.scss'
 import '../styles/header.scss'
 import '../styles/footer.scss'
 import '../styles/main.scss'
+import '../styles/portfolio.scss'
 config.autoAddCss = false;
 
 
