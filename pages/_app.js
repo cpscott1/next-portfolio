@@ -5,6 +5,7 @@ import '../styles/header.scss'
 import '../styles/footer.scss'
 import '../styles/main.scss'
 import '../styles/portfolio.scss'
+import '../styles/contact.scss'
 config.autoAddCss = false;
 
 

@@ -1,0 +1,50 @@
+.touch-title {
+  padding-bottom: 2vw;
+  border-bottom: 1px solid black;
+}
+
+.touch-text {
+  margin-bottom: 0;
+}
+
+.input-containers {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type='text'] {
+  background: #EAEAEB;
+  border: none;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  outline: none;
+}
+
+.textarea {
+  background: #EAEAEB;
+  border: none;
+  padding-top: 2vw;
+  padding-bottom: 6vw;
+  outline: none;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.form-button-container {
+  padding-top: 2vw;
+  padding-bottom: 12vw;
+}
+
+.contact-form-button {
+  text-align: center;
+  border: 1px solid black;
+  outline: none;
+  background: #203A4C;
+  color: #F5F5F5;
+  font-size: 3vw;
+  padding: 4vw 8vw;
+  font-family: 'Public Sans', sans-serif;
+  cursor: pointer;
+}

@@ -11,28 +11,28 @@ export default function Contact() {
       </Head>
       <Layout>
         <main>
-          <div>
-            <h2>Get in Touch</h2>
+          <div className="touch-title">
+            <h2 className="touch-text">Get in Touch</h2>
             <p>I'd love to hear what you're working on and how I could help. I'm currently looking for a new role and open to a wide range of opportunities. If you found me from my podcast I am also looking for new exciting guests to have on as well. </p>
           </div>
           <div>
             <h2>Contact Me</h2>
             <form name="contact" method="POST" data-netlify="true">
             <input type="hidden" name="contact-form" value="contact" />
-              <div>
+              <div className="input-containers">
                 <label htmlFor="name">Name</label>
-                <input type="text" id="name" name="name" />
+                <input type="text" id="name" name="name" placeholder="Name" />
               </div>
-              <div>
+              <div className="input-containers">
                 <label htmlFor="email">Email Address</label>
-                <input type="text" id="email" name="email" />
+                <input type="text" id="email" name="email" placeholder="email@example.com"/>
               </div>
-              <div>
+              <div className="input-containers">
                 <label htmlFor="message">Message</label>
-                <textarea id="message" name="message" />
+                <textarea className="textarea" id="message" name="message" placeholder="How can I help?"/>
               </div>
-              <div>
-                <button type="submit">SEND MESSAGE</button>
+              <div className="form-button-container">
+                <button className="contact-form-button" type="submit">SEND MESSAGE</button>
               </div>
             </form>
           </div>
