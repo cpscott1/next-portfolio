@@ -13,6 +13,10 @@ footer {
     padding-top: 3vw;
     padding-bottom: 3vw;
   }
+  @media only screen and (min-width: 1200px) {
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+  }
   a {
     color: #F5F5F5;
     margin-bottom: 7vw;
