@@ -1,6 +1,10 @@
 .project-image-container {
   padding-bottom: 7vw;
   border-bottom: 1px solid black;
+  @media only screen and (min-width: 768px) {
+    margin-left: 2vw;
+    border-bottom: 0;
+  }
 }
 
 .images {
@@ -16,19 +20,34 @@
   width: 100%;
   height: 40vw;
   object-fit: cover;
+  @media only screen and (min-width: 768px) {
+    height: 35vw;
+  }
 }
 
 .projects-text-container {
   padding-bottom: 5vw;
   border-bottom: 1px solid black;
+  @media only screen and (min-width: 768px) {
+    margin-left: 5vw;
+    border-bottom: 0;
+  }
+
 }
 
 .projects-title {
   margin-bottom: 0;
+  @media only screen and (min-width: 768px) {
+    margin-top: 0;
+    font-size: 4vw;
+  }
 }
 
 .projects-button-container {
   padding-top: 3vw;
+  @media only screen and (min-width: 768px) {
+    padding-top: 0;
+  }
 }
 
 .projects-button {
@@ -40,4 +59,30 @@
   padding: 4vw 8vw;
   font-family: 'Public Sans', sans-serif;
   cursor: pointer;
+  @media only screen and (min-width: 768px) {
+    font-size: 2vw;
+    padding: 3vw 3vw;
+  }
+}
+
+.port-grid {
+  @media only screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .scissortail {
+      padding-top: 10vw;
+    }
+  }
+}
+
+.reverse {
+  @media only screen and (min-width: 768px) {
+    direction: rtl;
+    .projects-text-container {
+      padding-top: 10vw;
+      margin-left: 0;
+      text-align: left;
+      padding-right: 5vw;
+    }
+  }
 }
