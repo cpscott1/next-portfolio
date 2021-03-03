@@ -9,6 +9,10 @@ h2 {
 .header-photo {
   width: 100%;
   height: auto;
+  @media only screen and (min-width: 1200px) {
+    height: 40vw;
+    object-fit: cover;
+  }
 }
 
 .home-title {
